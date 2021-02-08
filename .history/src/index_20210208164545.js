@@ -80,7 +80,7 @@ module.exports = function toReadable(num) {
                                 }
                             }
                         }
-                        //return 111-919
+                        //return 111-9
                         else if (number.charAt(1) == 1 && number.charAt(2) != 0) {
                             for (let a = 0; a <= secondTen.length; a++) {
                                 if (number.charAt(2) == a) {
@@ -88,9 +88,7 @@ module.exports = function toReadable(num) {
                                 }
                             }
 
-                        }
-                        //return 101-909
-                        else if (number.charAt(1) == 0) {
+                        } else if (number.charAt(1) == 0) {
                             for (let a = 0; a <= units.length; a++) {
                                 if (number.charAt(2) == a) {
                                     return `${hundred[i - 1]} ${units[a - 1]}`;

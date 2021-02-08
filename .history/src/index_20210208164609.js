@@ -88,7 +88,7 @@ module.exports = function toReadable(num) {
                                 }
                             }
 
-                        }
+                        } 
                         //return 101-909
                         else if (number.charAt(1) == 0) {
                             for (let a = 0; a <= units.length; a++) {
